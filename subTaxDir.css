@@ -18,10 +18,36 @@ span {
     font-weight: bold;
 }
 
-.listTitle {
+/* .listTitle {
     border-bottom: 1px solid black;
-}
+} */
 
 .field {
     font-weight:500
+}
+
+.card {
+    border:1px solid black;
+    background-color: white;
+    width: 70vw;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.card:last-child {
+    margin-top: 8px;
+
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
 }
