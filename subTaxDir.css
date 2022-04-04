@@ -7,7 +7,7 @@ body {
 }
 
 li {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 li:first-child {
@@ -38,16 +38,25 @@ span {
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    margin-top: 10px;
 }
 
-.card:last-child {
+/* .card:last-child {
     margin-top: 8px;
 
-}
+} */
 
 .para {
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    width: 70vw;
+}
+li {
+    width: 95%;
+}
+
+ol {
+    width: 95%;
 }
